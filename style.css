@@ -22,6 +22,12 @@ body {
   max-width: 600px;
   border-radius: 12px;
   box-shadow: 0 0 10px #00ffff33;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.perfil:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #00ffffaa;
 }
 
 .perfil img {
